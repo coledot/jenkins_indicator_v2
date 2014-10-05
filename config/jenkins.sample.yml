@@ -1,0 +1,6 @@
+hostname: jenkins.example.com
+username: admin
+password: foobar
+thing1_mappings:
+    'deadbeef': 'foo project build'
+    'badf00d5': 'foo project deploy'
