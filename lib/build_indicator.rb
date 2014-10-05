@@ -14,7 +14,7 @@ end
 config_file = "#{File.dirname __FILE__}/../config/jenkins.yml"
 config = YAML.load_file config_file
 
-config['thing1_mappings'].each do |serial_number, project_name|
+config['blink1_mappings'].each do |serial_number, project_name|
   spawn_control_thread serial_number, project_name, config
 end
 
