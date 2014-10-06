@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/coledot/blinky.git
-  revision: 7a95f64d474dfc9cb2970b230082b79c706cdb23
-  branch: light_lookup_serial_number
+  revision: bd6393b9d246545b27e8b3238a0c1bf454f99175
+  branch: color_tweak
   specs:
     blinky (0.0.12)
       chicanery (~> 0.1.0)
