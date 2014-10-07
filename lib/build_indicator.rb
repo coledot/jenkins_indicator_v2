@@ -21,7 +21,8 @@ def run_server
   config['blink1_mappings'].each do |serial_number, project_name|
     spawn_control_thread serial_number, project_name, config
   end
-  while true do end # threads do all the work
+  # threads do all the work
+  while true do sleep 3600 end
 end
 
 def spawn_control_thread serial_number, project_name, config
