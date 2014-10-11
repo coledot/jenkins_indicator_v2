@@ -1,2 +1,2 @@
 config/jenkins.yml
-state
+tmp/

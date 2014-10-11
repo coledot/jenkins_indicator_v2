@@ -1,20 +1,26 @@
 GIT
   remote: https://github.com/coledot/blinky.git
-  revision: bd6393b9d246545b27e8b3238a0c1bf454f99175
-  branch: color_tweak
+  revision: ace44e713346688b8a8c4067ccc085049dade454
   specs:
     blinky (0.0.12)
       chicanery (~> 0.1.0)
       libusb (~> 0.2.2)
 
-GEM
-  remote: https://rubygems.org/
+GIT
+  remote: https://github.com/coledot/chicanery.git
+  revision: 09e9d0beb7e0135cd77a954dba9d92397bb4c836
+  ref: 09e9d0b
+  branch: use_tempfile_for_state
   specs:
     chicanery (0.1.8)
       colorize (~> 0)
       nokogiri (~> 1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
     colorize (0.7.3)
-    ffi (1.9.5)
+    ffi (1.9.6)
     libusb (0.2.2)
       ffi (>= 1.0)
     mini_portile (0.6.0)
@@ -26,3 +32,4 @@ PLATFORMS
 
 DEPENDENCIES
   blinky!
+  chicanery!
