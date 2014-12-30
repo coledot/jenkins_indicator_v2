@@ -1,35 +1,26 @@
 GIT
   remote: https://github.com/coledot/blinky.git
-  revision: ace44e713346688b8a8c4067ccc085049dade454
+  revision: c6251b9547f36dc8690d66c8df633424e0258a8e
+  branch: moar_colors
   specs:
     blinky (0.0.12)
-      chicanery (~> 0.1.0)
+      cctray (~> 0.0.1)
       libusb (~> 0.2.2)
-
-GIT
-  remote: https://github.com/coledot/chicanery.git
-  revision: 09e9d0beb7e0135cd77a954dba9d92397bb4c836
-  ref: 09e9d0b
-  branch: use_tempfile_for_state
-  specs:
-    chicanery (0.1.8)
-      colorize (~> 0)
-      nokogiri (~> 1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    colorize (0.7.3)
+    cctray (0.0.1)
+      nokogiri (~> 1.6, >= 1.6.0)
     ffi (1.9.6)
     libusb (0.2.2)
       ffi (>= 1.0)
-    mini_portile (0.6.0)
-    nokogiri (1.6.3.1)
-      mini_portile (= 0.6.0)
+    mini_portile (0.6.1)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   blinky!
-  chicanery!
